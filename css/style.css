@@ -998,7 +998,7 @@ body.offcanvas {
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
-        background: rgba(0, 0, 0, 0.4); }
+        background: rgba(150, 185, 230, 0.8); }
         .project .desc h3 {
           font-style: 28px;
           -webkit-transform: translate3d(0, 0, 0);
@@ -1006,7 +1006,8 @@ body.offcanvas {
           color: #000; }
         .project .desc span {
           -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0); } }
+          transform: translate3d(0, 0, 0); 
+          color: #000;} }
   .project:hover .desc {
     opacity: 1; }
     .project:hover .desc h3 {
@@ -1615,7 +1616,7 @@ button .play {
   height: 100px;
   height: 10rem;
   padding: 5px;
-  margin-right: 20px;
+  margin-right: 5px;
   transition: .5s;
   transform: translate(0, 0);
 }
@@ -1646,7 +1647,7 @@ button.play {
   height: 100px;
   height: 10rem;
   padding: 5px;
-  margin-right: 20px;
+  margin-right: 5px;
   transition: .5s;
 }
 .scorebox {
