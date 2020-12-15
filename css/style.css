@@ -1530,11 +1530,11 @@ button.play {
   border: 2px solid white;
 }
 button.play.rock {
-  background: #efefef url(../images/rock.png) no-repeat;
+  background: #efefef url(./images/rock.png) no-repeat;
   background-size: 100px 100px;
 }
 button.play.paper {
-  background: #efefef url(../images/paper.png) no-repeat;
+  background: #efefef url(./images/paper.png) no-repeat;
   background-size: 100px 100px;
 }
 button.play.scissors {
