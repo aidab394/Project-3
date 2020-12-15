@@ -302,9 +302,9 @@ figure {
           font-weight: 700; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
-              font-size: 28px; } }
+              font-size: 50px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
-          font-size: 18px;
+          font-size: 22px;
           line-height: 1.5;
           margin-bottom: 30px;
           font-weight: 300;
@@ -404,7 +404,7 @@ body.offcanvas {
   position: relative; }
 
 .colorlib-heading {
-  font-size: 18px;
+  font-size: 30px;
   margin-bottom: 4em;
   font-weight: 700;
   text-transform: uppercase;
@@ -418,9 +418,9 @@ body.offcanvas {
       margin-bottom: 3em; } }
 
 .heading-meta {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   display: block;
-  font-size: 10px;
+  font-size: 15px;
   text-transform: uppercase;
   color: #999999;
   font-weight: 500;
@@ -1074,7 +1074,8 @@ body.offcanvas {
   .colorlib-counters .colorlib-counter-label {
     color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
     letter-spacing: 5px;
     margin-bottom: 2em;
     display: block; }
