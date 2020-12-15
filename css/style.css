@@ -5,6 +5,12 @@
   font-weight: normal;
   font-style: normal; }
 
+/* =======================================================
+*
+* 	Template Style 
+*	Edit this section
+*
+* ======================================================= */
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
@@ -1524,16 +1530,34 @@ button.play {
   border: 2px solid white;
 }
 button.play.rock {
-  background: #efefef url(../images/rock.png) no-repeat;
+  background: #efefef;
+  color: #96b9e6;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: normal;
+  text-align: center;
   background-size: 100px 100px;
+  padding-top: 0;
 }
 button.play.paper {
-  background: #efefef url(../images/paper.png) no-repeat;
+  background: #efefef;
+  color: #96b9e6;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: normal;
+  text-align: center;
   background-size: 100px 100px;
+  padding-top: 0;
 }
 button.play.scissors {
-  background: #efefef url(../images/scissors.png) no-repeat;
+  background: #efefef;
+  color: #96b9e6;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: normal;
+  text-align: center;
   background-size: 100px 100px;
+  padding-top: 0;
 }
 button.play:hover {
   border: 4px solid #96b9e6;
@@ -1542,6 +1566,9 @@ button.play:active {
   background-color: #96b9e6;
   color: #fff;  
   border: 2px solid #96b9e6;
+}
+button i {
+  padding-top: 0;
 }
 h2 #results {
   color: #444444;
